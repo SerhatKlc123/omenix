@@ -6,8 +6,6 @@ import PC from '../images/pc.png';
 import Phone from '../images/phone.png';
 import MockHow from '../images/mock-how.png';
 import Group from '../images/group.png';
-import Sewage from '../images/sewage.png';
-import Factory from '../images/factory.png';
 import RightBase from '@/components/RightBase';
 import LeftBase from '@/components/LeftBase';
 import Work from '@/components/Work';
@@ -92,23 +90,7 @@ const Body = () => {
                 </div>
             </div>
 
-            {/* Sectors */}
-            <div className="bg-gradient-to-b from-gray-100 to-white w-screen flex flex-col justify-start items-center py-24 lg:px-44 px-10">
-                <p className='pb-16 font-bold text-2xl text-slate-800'>Hizmet Verdiğimiz Sektörler</p>
-                <div className='grid md:grid-cols-2 grid-cols-1 gap-8' style={{ justifyItems: 'start' }}>
-                    <Image
-                        src={Factory}
-                        alt='factory.png'
-                    />
-                    <Image
-                        src={Sewage}
-                        alt='sewage.png'
-                    />
-
-                </div>
-
-            </div>
-
+            
 
         </div>
     );

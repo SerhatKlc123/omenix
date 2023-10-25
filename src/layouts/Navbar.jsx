@@ -49,7 +49,6 @@ const Navbar = () => {
         {/*Web menu */}
         <ul className='hidden md:flex md:items-center'>
           <NavbarElement link='products' title='Ürünler' func={openProductHandle} scroll={isScrolled} />
-          <NavbarElement link='sectors' title='Sektörler ' func={openProductHandle} scroll={isScrolled} />
           <NavbarElement link='device' title='Cihaz Durumu Takibi' func={openProductHandle} scroll={isScrolled} />
           <button className='text-white hover:bg-[#64CCC5] shadow-sm bg-[#053B50] p-1 px-3 font-normal rounded-full mr-5'>Demo Talep</button>
           <FaGlobeEurope className={
