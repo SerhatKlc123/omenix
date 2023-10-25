@@ -54,7 +54,7 @@ const Body = () => {
             <div className="bg-gradient-to-b from-[#176B87] to-black w-screen h-auto flex flex-col justify-start lg:items-center items-start py-28">
                 <p className='text-white font-bold lg:text-3xl text-2xl pb-5 lg:px-56 px-8'>Omenix Nasıl Çalışır?</p>
                 <p className='text-gray-200 text-md lg:px-56 px-8 pb-20'>Omenix, makine sağlığı durum izleme, bakım planlama ve kestirimci bakım için gelişmiş veri analitiği kullanarak makinelerin performansını optimize etmeye, arızaları önceden tespit etmeye ve üretimi kesintisiz hale getirmeye yönelik bir hizmet sunar.</p>
-                <div class="mx-auto grid md:grid-cols-3 grid-cols-1 gap-6 lg:px-56 px-8">
+                <div className="mx-auto grid md:grid-cols-3 grid-cols-1 gap-6 lg:px-56 px-8">
                     <Work src={MockHow} title="Titreşim Sensörü" subtitle="Hassas titreşim ölçümü yapan, kablolu ve kablosuz bağlantı seçenekleri bulunan ölçüm cihazıdır." />
                     <Work src={MockHow} title="IoT Gateway" subtitle="Sensör verilerini toplayıp spektrum analizi yaparak platforma işlenmiş veri gönderen cihazdır." />
                     <Work src={MockHow} title="IoT Platform" subtitle="Sensörlerden gelen işlenmiş veriyi depolamak, analiz etmek ve bildirimler oluşturmak için kullanılır." />
